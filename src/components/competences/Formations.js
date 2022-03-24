@@ -16,7 +16,7 @@ const Formations = () => {
                     <p>Maintenance des différents des réseaux télécome | Réflectométrie</p>
                 </div>
                 <div className="formationsBlocs">
-                    <h4>C.C.I Lyon</h4>
+                    <h4>C.C.I Librairie</h4>
                     <h5>2007</h5>
                     <p>Niveau 5, Bac+2 | Gestion et coordination d'un site commercial</p>
                 </div>
