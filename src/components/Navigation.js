@@ -43,7 +43,7 @@ const Navigation = () => {
             <div className="socialNetwork">
                 <ul>
                     <li>
-                        <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
+                        <a href="https://www.linkedin.com/in/mathieu-jaupitre-650a2190/" target="_blank" rel="noopener noreferrer">
                             <i className="fab fa-linkedin"></i>
                         </a>
                     </li>
@@ -53,13 +53,8 @@ const Navigation = () => {
                         </a>
                     </li>
                     <li>
-                        <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
-                            <i className="fab fa-codepen"></i>
-                        </a>
-                    </li>
-                    <li>
-                        <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
-                            <i className="fab fa-facebook"></i>
+                        <a href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=new" target="_blank" rel="noopener noreferrer">
+                            <i className="fas fa-mail-bulk"></i>
                         </a>
                     </li>
                 </ul>

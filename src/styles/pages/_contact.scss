@@ -5,7 +5,7 @@
   overflow: hidden;
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 20% 45% 35%;
+  grid-template-rows: 35% 45% 20%;
   grid-template-areas: 
     "1"
     "2"
@@ -16,7 +16,7 @@
     width: 100%;
     position: relative;
     background: $color-1;
-    height: 340px;
+    height: 380px;
 
     &:before {
       content: '';
@@ -32,7 +32,7 @@
       height: 100%;
       position: absolute;
       top: 30px;
-      background: url(../../media/shape.svg) no-repeat center /cover ;
+
 
     }
 
@@ -82,6 +82,7 @@
         transform: translateY(2px);
         color: $color-1;
       }
+
       span {
         font-size: 1.4rem;
         position: absolute;
@@ -92,6 +93,16 @@
         width: 350px;
         transition: .2s ease;
       }
+
+      .clickInputTel {
+        margin-left: 45px;
+      }
+
+      .clickInputTel:hover {
+        transform: translateX(56px);
+        cursor: pointer;
+      }
+
       .clickInput:hover {
         transform: translateX(56px);
         cursor: pointer;

@@ -15,7 +15,11 @@ const Hobbies = () => {
                 </li>
                 <li className="hobby">
                     <i className="fas fa-paint-brush"></i>
-                    <span>Illustration, UI UX design</span>
+                    <span>Illustration</span>
+                </li>
+                <li className="hobby">
+                    <i className="fas fa-eye"></i>
+                    <span>UI UX design</span>
                 </li>
                 <li className="hobby">
                     <i className="fas fa-book"></i>

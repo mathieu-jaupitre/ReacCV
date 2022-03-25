@@ -16,7 +16,7 @@ const Contact = () => {
                         <li>
                             <i className="fas fa-map-mobile-alt"></i>
                             <CopyToClipboard text="0612532988">
-                                <span className="clickInput"
+                                <span className="clickInputTel"
                                       onClick={() => {
                                           alert('Téléphone copié !');
                                         }}>06 12 53 29 88
@@ -43,14 +43,11 @@ const Contact = () => {
                                 <h4>Linkedin</h4>
                                 <i className="fab fa-linkedin"></i>
                             </a>
-                            <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
+                            <a href="https://github.com/" target="_blank" rel="noopener noreferrer">
                                 <h4>Github</h4>
                                 <i className="fab fa-github"></i>
                             </a>
-                            <a href="http://www.google.com" target="_blank" rel="noopener noreferrer">
-                                <h4>codePen</h4>
-                                <i className="fab fa-codepen"></i>
-                            </a>
+
 
                     </ul>
                 </div>

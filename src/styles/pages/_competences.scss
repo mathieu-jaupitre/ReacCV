@@ -1,4 +1,5 @@
 .competences {
+
   .competencesContent {
     min-height: $minHeight;
     width: 100%;
@@ -6,18 +7,21 @@
     overflow: hidden;
     display: grid;
     grid-template-columns: 38% 1fr 1fr;
-    grid-template-rows: 45% 30%;
+    grid-template-rows: 55% 45%;
     grid-template-areas:
-      "L F F"
-      "O O H";
+      "L O O"
+      "F F H";
 
     .languagesFrameworks, .formations, .otherSkills, .hobbies {
       background: $color-2;
+      box-shadow: $shadow;
+      margin: .5rem 0.5rem .5rem 0.5rem;
       border-radius: $borderRadius;
-      padding: .8rem;
+      padding: .2rem;
     }
     h3 {
       font-size: 1.4rem;
+      text-align: center;
       margin-bottom: 1rem;
       font-family: $font-2;
       color: $color-4;
@@ -74,7 +78,8 @@
         }
       }
       .languagesList {
-        padding-top: .5rem;
+        padding-top: .2rem;
+        margin-left: .5rem;
 
         li {
           color: $color-1;
@@ -106,21 +111,23 @@
     }
     .formations {
       grid-area: F;
-      margin: 0 0 .5rem .5rem;
       display: grid;
       grid-template-columns: 1fr;
-      grid-template-rows: 10% 1fr 1fr;
+      grid-template-rows: 10% 1fr;
       grid-template-areas:
         "1"
         "2"
         "3";
 
       .formationsBlocs {
-        margin-bottom: 15px;
+        margin-bottom: .5px;
+        margin-left: .5rem;
       }
 
       h3 {
         grid-area: 1;
+        text-align: right;
+        margin-right: 7rem;
       }
       h4 {
         font-size: 1.1rem;
@@ -129,6 +136,7 @@
       h5 {
         color: $color-5;
         padding: 0rem 0 0rem 1rem;
+        text-shadow: 0.01em 0.01em 0.02em black;
       }
       p {
         color: $color-4;
@@ -136,16 +144,13 @@
         text-align: justify;
         padding: 0 1rem;
       }
-      .exp-1 {
-        grid-area: 2;
-      }
-      .exp-2 {
-        grid-area: 3;
-      }
+
+
     }
     .otherSkills {
       grid-area: O;
-      margin-right: 0.5rem;
+      margin-left: 0.5rem;
+      margin-bottom: .5rem;
 
       .list {
         display: flex;
@@ -168,6 +173,11 @@
     .hobbies {
       grid-area: H;
       padding-left: 1.5rem;
+
+      h3 {
+        text-align: left;
+        margin-left: 2.2rem;
+      }
 
       ul {
         height: 80%;
@@ -223,12 +233,12 @@
     .languages {
       grid-area: 1 !important;
     }
-    .experience {
-      grid-area: 2 !important;
+    .formations {
+      grid-area: 3 !important;
       margin-left: 0 !important;
     }
     .otherSkills {
-      grid-area: 3 !important;
+      grid-area: 2 !important;
       margin-right: 0 !important;
     }
     .hobbies {
